@@ -1,12 +1,27 @@
 modLoader="javafml"
 loaderVersion="[3,]"
-issueTrackerURL="https://github.com/Learwin/MultiprojectTemplateMod/issues"
+issueTrackerURL="https://github.com/Learwin/OptimallyPacked/issues"
 license="ARR"
 
 [[mods]]
-    modId="examplemod"
-    logoFile="examplemod.png"
-    version="1.0.0"
-    displayName="ExampleMod"
+    modId="optimallypacked"
+    logoFile="optimallypacked.png"
+    version="0.0.1"
+    displayName="Optimally Packed"
     authors="Learwin"
-    description='''A description.'''
+    description='''Crafting tables which are optimally packed.'''
+
+[[dependencies.optimallypacked]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.optimallypacked]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,1.22)"
+    ordering="NONE"
+    side="BOTH"
+

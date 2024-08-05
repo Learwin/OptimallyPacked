@@ -1,1 +1,1 @@
-Template mod for a Multiproject mod to be used with https://github.com/Learwin/Mods
+A mod adding non-traditional crafting table sizes in a joking way.
